@@ -1,4 +1,4 @@
-# LARP: Verifying and Repairing LLM-Generated Robot Manipulation Plans
+# LARP: A Language-Action Robotic Planner Integrating Retrieval-Augmented LLMs and Dynamic Scene Graphs for Detecting and Repairing Execution Failures in Robotics Manipulation Tasks
 
 LARP detects and repairs missing steps in LLM-generated robot manipulation
 plans. A Graph Attention Network (GAT) verifier rolls a plan forward over a
