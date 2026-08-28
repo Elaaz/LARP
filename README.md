@@ -135,6 +135,6 @@ draft.
 
 Physical experiments were conducted on the 3-DOF Delta parallel robot at the
 Human-Robot Interaction Laboratory, University of Tehran, in collaboration
-with TaarLab, Politecnico di Milano.
+with TaarLab.
 
 
