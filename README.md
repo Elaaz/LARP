@@ -123,7 +123,7 @@ draft.
 ```bibtex
 @article{larp2026,
   title   = {LARP: A Language-Action Robotic Planner Integrating Retrieval-Augmented LLMs and Dynamic Scene Graphs for Detecting and Repairing Execution Failures in Robotics Manipulation Tasks},
-  author  = {Elaheh Alizadehmanqhootae},{Zeinab Ezzati},
+  authors  = {[Elaheh Alizadehmanqhootae],[Zeinab Ezzati] },
   journal = {Expert Systems with Applications},
   year    = {2026},
   note    = {under review}
