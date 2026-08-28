@@ -6,7 +6,7 @@ Dynamic Scene Graph, flags precondition violations (missing prerequisites,
 obstructions, containment, gripper occupancy), identifies the responsible
 object, and drives a deterministic repair — before the plan reaches the robot.
 
-The system is demonstrated end to end: natural-language command → LLM
+The system is demonstrated end-to-end: natural-language command → LLM
 planning → GAT verification and repair → task-oriented grasp synthesis
 (SenseTask) → execution on a real 3-DOF Delta parallel robot, with the scene
 re-perceived after every action.
@@ -55,7 +55,7 @@ LARP/
 ├── larp_production.py   closed-loop pipeline: perception → plan → verify →
 │                         repair → grasp → execute → re-perceive
 ├── run_pipeline.py       offline/dry-run version of the pipeline (no hardware)
-└── paper/                LaTeX source for the Expert System and Applications
+└── paper/                LaTeX source for the Expert Systems with Applications
 ```
 
 ## Setup
@@ -114,8 +114,7 @@ separately from memorization.
 
 ## Status
 
-This repository accompanies a manuscript in preparation for *IEEE Robotics
-and Automation Letters*. Some experiments referenced in the paper (baseline
+This repository accompanies a manuscript in preparation for *Expert Systems with Applications*. Some experiments referenced in the paper (baseline
 comparisons, ablations) are being finalized; see `paper/` for the current
 draft.
 
@@ -124,8 +123,8 @@ draft.
 ```bibtex
 @article{larp2026,
   title   = {LARP: A Language-Action Robotic Planner Integrating Retrieval-Augmented LLMs and Dynamic Scene Graphs for Detecting and Repairing Execution Failures in Robotics Manipulation Tasks},
-  author  = {Elaheh Alizadehmanqhootae},
-  journal = {Expert System and Applications},
+  author  = {Elaheh Alizadehmanqhootae},{Zeinab Ezzati}
+  journal = {Expert Systems with Applications},
   year    = {2026},
   note    = {under review}
 }
