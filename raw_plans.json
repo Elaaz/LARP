@@ -1,0 +1,182 @@
+[
+  {
+    "command": "make a sandwich",
+    "raw_plan": [
+      {
+        "action": "pick",
+        "object": "bread_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "bread_1",
+        "target": "plate_1"
+      },
+      {
+        "action": "pick",
+        "object": "meat_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "meat_1",
+        "target": "bread_1"
+      },
+      {
+        "action": "pick",
+        "object": "lettuce_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "lettuce_1",
+        "target": "meat_1"
+      },
+      {
+        "action": "pick",
+        "object": "knife_1",
+        "target": null
+      },
+      {
+        "action": "slice",
+        "object": "tomato_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "knife_1",
+        "target": "table_1"
+      },
+      {
+        "action": "pick",
+        "object": "tomato_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "tomato_1",
+        "target": "lettuce_1"
+      }
+    ],
+    "agent_valid": true,
+    "agent_errors": []
+  },
+  {
+    "command": "make a veggie sandwich",
+    "raw_plan": [
+      {
+        "action": "pick",
+        "object": "bread_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "bread_1",
+        "target": "plate_1"
+      },
+      {
+        "action": "pick",
+        "object": "lettuce_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "lettuce_1",
+        "target": "bread_1"
+      },
+      {
+        "action": "pick",
+        "object": "knife_1",
+        "target": null
+      },
+      {
+        "action": "slice",
+        "object": "tomato_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "knife_1",
+        "target": "clear_location"
+      },
+      {
+        "action": "pick",
+        "object": "tomato_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "tomato_1",
+        "target": "lettuce_1"
+      }
+    ],
+    "agent_valid": true,
+    "agent_errors": []
+  },
+  {
+    "command": "slice the tomato and put it on the plate",
+    "raw_plan": [
+      {
+        "action": "pick",
+        "object": "knife_1",
+        "target": null
+      },
+      {
+        "action": "slice",
+        "object": "tomato_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "knife_1",
+        "target": "table_1"
+      },
+      {
+        "action": "pick",
+        "object": "tomato_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "tomato_1",
+        "target": "plate_1"
+      }
+    ],
+    "agent_valid": true,
+    "agent_errors": []
+  },
+  {
+    "command": "put the bread on the plate",
+    "raw_plan": [
+      {
+        "action": "pick",
+        "object": "bread_1",
+        "target": null
+      },
+      {
+        "action": "put",
+        "object": "bread_1",
+        "target": "plate_1"
+      }
+    ],
+    "agent_valid": true,
+    "agent_errors": []
+  },
+  {
+    "command": "pick up the knife and slice the lettuce",
+    "raw_plan": [
+      {
+        "action": "pick",
+        "object": "knife_1",
+        "target": null
+      },
+      {
+        "action": "slice",
+        "object": "lettuce_1",
+        "target": null
+      }
+    ],
+    "agent_valid": true,
+    "agent_errors": []
+  }
+]

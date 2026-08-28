@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Model weights & generated data (large, regenerable)
+*.pt
+*.pth
+yoloe-v8s-seg.pt
+runs/
+larp_dataset/
+st_out/
+perception_out/
+cam_frame.png
+debug_zone_*.png
+larp_run_log.json
+GitIgnores/
+SenseTask/
+delta_robot_manager/
+delta_manager/
+
+# SenseTask model weights specifically
+grasping/SenseTask/models/*.pth
+
+# API keys / secrets (never commit these)
+.env
+*.key
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
