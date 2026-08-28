@@ -55,7 +55,7 @@ LARP/
 ├── larp_production.py   closed-loop pipeline: perception → plan → verify →
 │                         repair → grasp → execute → re-perceive
 ├── run_pipeline.py       offline/dry-run version of the pipeline (no hardware)
-└── paper/                LaTeX source for the RA-L submission
+└── paper/                LaTeX source for the Expert System and Applications
 ```
 
 ## Setup
